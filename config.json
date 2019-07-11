@@ -1,0 +1,6 @@
+{
+	"fields": [
+		{ "type": "input", "name": "username", "dataType": "string" },
+		{ "type": "input", "name": "email", "dataType": "string" }
+	]
+}

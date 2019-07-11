@@ -1,0 +1,26 @@
+{
+	"name": "sten",
+	"private": true,
+	"version": "0.0.1",
+	"description": "Stencil App Starter",
+	"scripts": {
+		"build": "stencil build",
+		"prestart": "node generator.js",
+		"start": "stencil build --dev --watch --serve",
+		"test": "stencil test --spec --e2e",
+		"test.watch": "stencil test --spec --e2e --watchAll",
+		"serve": "stencil --serve ./www/build"
+	},
+	"dependencies": {
+		"@stencil/core": "^1.0.7",
+		"@stencil/router": "^1.0.1",
+		"@types/jest": "^24.0.15"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/puppeteer": "1.12.4",
+		"jest": "24.8.0",
+		"jest-cli": "24.8.0",
+		"puppeteer": "1.17.0"
+	}
+}
